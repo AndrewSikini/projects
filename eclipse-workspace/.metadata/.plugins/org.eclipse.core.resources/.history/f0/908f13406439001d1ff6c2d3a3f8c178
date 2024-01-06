@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class HelloWorld {
+	public static void main(String[] args) {
+		int num1 = 0;
+		int num2 = 0;
+		int result = 0;
+		Scanner scn = new Scanner(System.in);
+		System.out.println("Enter your first number: ");
+		num1= scn.nextInt();
+		System.out.println("Enter your second number: ");
+		num2= scn.nextInt();
+		
+		result = num1 + num2;
+		
+		System.out.printf("%n%s%n%d", "the sum is :", result);
+		
+		System.out.print("\nHello world!\n");
+		System.out.println("its a wonderfull day");
+		System.out.print("Hello world!");
+		System.out.printf("%n%s%n%d", "The number is : ", 5);
+	}
+}
